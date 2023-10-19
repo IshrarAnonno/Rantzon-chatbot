@@ -5,7 +5,7 @@ import time
 from decouple import config
 
 # Set your OpenAI API key
-openai.api_key = config('SECRET_KEY')
+openai.api_key = config('OPEN_API_KEY')
 
 # Function to get the chatbot's response using OpenAI API
 def get_chatbot_response(user_message, conversation):
